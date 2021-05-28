@@ -1,0 +1,164 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+#title{
+  background-color:#ff4c68;
+/* height:580px; */
+  position: relative;
+  }
+
+h1{
+  font-family: 'Montserrat', sans-serif;
+  font-weight:550;
+  font-size: 2.9rem;
+  line-height: 1.5;
+  color:white;
+
+}
+
+h2{
+  font-family: "Montserrat-Bold";
+  font-weight: bold;
+  font-size: 3.5rem;
+  line-height: 1.5;
+
+
+}
+h3{
+  font-family: "montesserat-bold";
+  font-size: 1.4rem;
+  font-weight:bold;
+}
+p{
+  color: #8f8f8f;
+}
+.container-fluid{
+padding: 3% 15% 7%;
+
+}
+
+
+.navbar-brand{
+  font-family: "ubuntu";
+  font-size: 2.5rem;
+  font-weight:bold;
+
+}
+.navbar{
+  padding-bottom:4.5rem;
+  padding-left: 0;
+  padding-right: 0;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Montserrat-light";
+}
+/* download buttons */
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+.iphone{
+  transform:rotate(25deg);
+  width:60%;
+  position:absolute;
+  right:30%;
+
+}
+
+/* features section */
+#features
+{
+position:relative;
+padding: 7% 15%;
+background-color:#fff;
+
+}
+.feature-box{
+  text-align:center;
+  padding: 5%;
+}
+.icon{
+  color:#ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover{
+  color:#ff4c68;
+}
+/* testimonials section */
+#testimonials{
+  padding: 7% 15%;
+  text-align:center;
+  background-color:#ef8172;
+  color:#fff;
+}
+
+.testimonial-image{
+  border-radius: 100%;
+  width: 10%;
+  margin: 20px;
+}
+/* press section */
+#press{
+    background-color:#ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo{
+  width: 15%;
+ margin-bottom: 50px;
+ margin-left:4%;
+}
+
+/* pricing section */
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+.pricing-coloumn{
+  padding: 3% 2%;
+}
+/* cta section */
+#cta{
+background-color:#ff4c68;
+text-align: center;
+height:370px;
+}
+
+
+.find-text{
+
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.9rem;
+  line-height: 1.5;
+  color:white;
+  width:60%;
+  padding-top:60px;
+  margin: auto;
+}
+
+#footer{
+  padding:7% 15%;
+
+  text-align:center;
+}
+
+.soc-icon{
+margin:30px 10px;
+}
+@media only screen and ( max-width:1034px) {
+  .iphone
+  {
+    position: static;
+    transform:rotate(0);
+  }
+
+#title{
+  text-align:center;
+}
+
+}
